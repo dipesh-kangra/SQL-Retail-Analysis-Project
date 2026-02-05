@@ -73,6 +73,22 @@ The database contains three tables:
 
 ---
 
+## 📷 Sample Analysis Screenshots
+
+### Total Revenue
+![Total Revenue](screenshots/02%20Total%20Revenue.png)
+
+### Top Products
+![Top Products](screenshots/03%20Top%20Products.png)
+
+### City-wise Revenue
+![City Revenue](screenshots/04%20City%20Revenue.png)
+
+### Monthly Revenue Trend
+![Monthly Trend](screenshots/07%20Monthly.png)
+
+---
+
 ## 📈 Key Insights
 
 - Total Revenue: ₹10,40,300  

@@ -1,34 +1,85 @@
 # Retail Sales Analysis using MySQL
 
-## Objective
-Analyze retail sales data to generate business insights.
+## 📊 Project Overview
+This project analyzes retail sales data to understand customer behavior, product performance, and revenue trends using SQL.
 
-## Tools Used
+The goal is to generate actionable business insights for decision-making.
+
+---
+
+## 🎯 Objective
+- Analyze sales performance
+- Identify top products and customers
+- Understand city-wise and monthly trends
+- Find repeat buyers
+
+---
+
+## 🛠️ Tools Used
 - MySQL
 - MySQL Workbench
+- MS Excel (for exporting results)
 
-## Dataset
-Three tables:
-- customers
-- products
-- orders
+---
 
-## Analysis Performed
-- Total Revenue
-- Top Products
-- City-wise Revenue
-- Top Customers
-- Category Revenue
-- Monthly Trends
-- Repeat Buyers
+## 🗃️ Dataset Description
 
-## Key Insights
-- Total Revenue: ₹10,40,300
-- Best City: Delhi
-- Best Category: Electronics
-- Peak Month: May
-- Top Customer: Neha Verma
+The database contains three tables:
 
-## Author
-Dipesh Kangra
+### customers
+- customer_id (PK)
+- name
+- city
+- gender
+- signup_date
 
+### products
+- product_id (PK)
+- product_name
+- category
+- price
+
+### orders
+- order_id (PK)
+- customer_id (FK)
+- product_id (FK)
+- quantity
+- order_date
+
+---
+
+## 🔍 Analysis Performed
+
+1. Total Revenue Calculation  
+2. Top 5 Products by Revenue  
+3. City-wise Revenue Analysis  
+4. Top Customers by Spending  
+5. Category-wise Revenue  
+6. Monthly Sales Trend  
+7. Repeat Buyers Analysis  
+
+---
+
+## 📈 Key Insights
+
+- Total Revenue: ₹10,40,300  
+- Best Performing City: Delhi  
+- Highest Revenue Category: Electronics  
+- Peak Sales Month: May  
+- Top Customer: Neha Verma  
+- 15 customers placed more than 3 orders
+
+---
+
+## 💡 Business Recommendations
+
+- Focus marketing on Electronics category
+- Launch loyalty programs for repeat customers
+- Increase promotions in low-performing cities
+- Run special offers during low-sales months
+
+---
+
+## 👤 Author
+Dipesh Kangra  
+GitHub: https://github.com/dipesh-kangra

@@ -22,6 +22,19 @@ The goal is to generate actionable business insights for decision-making.
 
 ---
 
+## ⚙️ Methodology
+
+1. Designed relational database structure
+2. Created tables with primary and foreign keys
+3. Inserted realistic retail sales data
+4. Validated and cleaned data
+5. Performed joins and aggregations
+6. Analyzed trends and patterns
+7. Generated business insights
+8. Documented results
+
+---
+
 ## 🗃️ Dataset Description
 
 The database contains three tables:

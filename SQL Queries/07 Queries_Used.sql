@@ -1,7 +1,9 @@
 USE retail_analysis;
 
 
--- Total Company Revenue
+-- Total Revenue
+-- Insight: Shows overall business performance
+
 SELECT 
     SUM(p.price * o.quantity) AS total_revenue
 FROM orders o
@@ -11,6 +13,8 @@ ON o.product_id = p.product_id;
 
 
 -- Top 5 Products by Revenue
+-- Insight: Helps identify high-demand products
+
 SELECT 
     p.product_name,
     SUM(p.price * o.quantity) AS total_revenue
@@ -23,7 +27,9 @@ LIMIT 5;
 
 
 
--- Revenue by City
+-- City-wise Revenue
+-- Insight: Identifies strong and weak markets
+
 SELECT 
     c.city,
     SUM(p.price * o.quantity) AS total_revenue
@@ -38,6 +44,8 @@ ORDER BY total_revenue DESC;
 
 
 -- Top 5 Customers by Spending
+-- Insight: Identifies the highest-value customers who contribute most to total revenue.
+
 SELECT 
     c.name,
     SUM(p.price * o.quantity) AS total_spent
@@ -53,6 +61,8 @@ LIMIT 5;
 
 
 -- Revenue by Category
+-- Insight: Shows which product categories generate maximum revenue and drive business growth.
+
 SELECT 
     p.category,
     SUM(p.price * o.quantity) AS total_revenue
@@ -65,6 +75,8 @@ ORDER BY total_revenue DESC;
 
 
 -- Monthly Revenue Trend
+-- Insight: Highlights peak and low sales months to support better planning and forecasting.
+
 SELECT 
     MONTH(o.order_date) AS month,
     SUM(p.price * o.quantity) AS total_revenue
@@ -76,6 +88,8 @@ ORDER BY month;
 
 
 -- Repeat Buyers
+-- Insight: Useful for loyalty programs
+
 SELECT 
     c.name,
     COUNT(o.order_id) AS no_of_orders

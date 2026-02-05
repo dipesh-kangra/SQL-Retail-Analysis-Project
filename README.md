@@ -7,6 +7,16 @@ The goal is to generate actionable business insights for decision-making.
 
 ---
 
+## ⭐ Project Highlights
+
+- Designed relational database from scratch
+- Analyzed 55+ sales records
+- Performed multi-table joins
+- Generated business insights
+- Created visual documentation
+
+---
+
 ## 🎯 Objective
 - Analyze sales performance
 - Identify top products and customers
@@ -19,6 +29,17 @@ The goal is to generate actionable business insights for decision-making.
 - MySQL
 - MySQL Workbench
 - MS Excel (for exporting results)
+
+---
+
+## ▶️ How to Run This Project
+
+1. Install MySQL and MySQL Workbench
+2. Create a new database
+3. Run the table creation scripts
+4. Insert sample data
+5. Execute queries from the SQL file
+6. View results in MySQL Workbench
 
 ---
 
@@ -106,6 +127,17 @@ The database contains three tables:
 - Launch loyalty programs for repeat customers
 - Increase promotions in low-performing cities
 - Run special offers during low-sales months
+
+---
+
+## 🧠 Skills Demonstrated
+
+- SQL Joins
+- Aggregations
+- Data Analysis
+- Business Reporting
+- Documentation
+- GitHub Project Management
 
 ---
 
